@@ -1,0 +1,15 @@
+.top-pg-header{
+font-family:'Russo One', sans-serif;;
+text-align: center;
+margin-top: 5px;
+color:purple;
+
+}
+
+#top-row{
+    width: '200px'; 
+    height: '200px';
+    border: purple;
+    background-color: aqua;
+    
+}
