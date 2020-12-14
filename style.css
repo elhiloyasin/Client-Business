@@ -1,15 +1,24 @@
+body{
+    background-image: url('citylights.webp') !important;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+   
+
+}
+
+
 .top-pg-header{
 font-family:'Russo One', sans-serif;;
 text-align: center;
 margin-top: 5px;
-color:purple;
+color:palevioletred;
 
 }
 
-#top-row{
-    width: '200px'; 
-    height: '200px';
-    border: purple;
-    background-color: aqua;
-    
-}
+
+
+textarea{
+   background:white;
+    font-size: 1.5em;
+  }
