@@ -18,7 +18,25 @@ color:palevioletred;
 
 
 
-textarea{
+textarea.something{
    background:white;
     font-size: 1.5em;
+    resize: none;
+  }
+
+  .present{
+    background-color: green;
+
+  }
+
+
+  .past{
+    background-color:red;
+
+  }
+
+
+  .future{
+    background-color:yellow;
+
   }
