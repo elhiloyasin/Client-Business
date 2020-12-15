@@ -13,5 +13,6 @@ JavaScript
 Application Url
 https://elhiloyasin.github.io/Day-Planner/
 
+
 Images of Application
 (images/citylights.webp);
