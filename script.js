@@ -6,7 +6,7 @@ console.log(text);
 localStorage.setItem(time,text)
 })
 
-
+//Getting items to the local storage by there value. 
 $('#9').val(localStorage.getItem('9'));
 $('#10').val(localStorage.getItem('10'));
 $('#11').val(localStorage.getItem('11'));
@@ -18,6 +18,7 @@ $('#16').val(localStorage.getItem('16'));
 $('#17').val(localStorage.getItem('17'));
 $('#18').val(localStorage.getItem('18'));
 
+//Current hour was set to 13 and equalized by the blockHour
 $('textarea').each(function(){
 let blockHour = parseInt($(this).attr('id'))
 let currentHour = 13 
