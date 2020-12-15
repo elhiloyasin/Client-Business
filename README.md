@@ -15,4 +15,4 @@ https://elhiloyasin.github.io/Day-Planner/
 
 
 Images of Application
-![Put any text here](images/citylights.webp)
+![Put any text here](/citylights.webp)
