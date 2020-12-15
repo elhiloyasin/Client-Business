@@ -19,5 +19,5 @@ https://elhiloyasin.github.io/Day-Planner/
 
 
 Images of Application
-![Workday Schedular](/citylights.webp)
+![Workday Schedular](/Workday Schedular _.png)
 
