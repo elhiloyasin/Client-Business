@@ -22,24 +22,19 @@ $('textarea').each(function(){
 let blockHour = parseInt($(this).attr('id'))
 let currentHour = 13 
 if(blockHour === currentHour){
-    $(this).addClass('present');
-  
+    $(this).addClass('present'); 
 }
 
 else if(blockHour < currentHour){
     $(this).addClass('past')
-
-
 }
 
 else if (blockHour > currentHour){
     $(this).addClass('future')
 
-
 }
-
-
 })
+
 
 
 

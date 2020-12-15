@@ -25,18 +25,18 @@ textarea.something{
   }
 
   .present{
-    background-color: green;
+    background-color:lightseagreen;
 
   }
 
 
   .past{
-    background-color:lightblue;
+    background-color:darkgray;
 
   }
 
 
   .future{
-    background-color:yellow;
+    background-color:lightgreen;
 
   }
