@@ -1,55 +1,38 @@
-$('.btn-info').on('click', function () {  
-let text = $(this).parent().siblings('.col-10').children().val()
-let time = $(this).attr('id')
-console.log(time);
-console.log(text);
-localStorage.setItem(time,text)
-})
+// Subscribe button functionality
+const subscribeButton = document.getElementById('subscribe-button');
 
-//Getting items to the local storage by there value. 
-$('#9').val(localStorage.getItem('9'));
-$('#10').val(localStorage.getItem('10'));
-$('#11').val(localStorage.getItem('11'));
-$('#12').val(localStorage.getItem('12'));
-$('#13').val(localStorage.getItem('13'));
-$('#14').val(localStorage.getItem('14'));
-$('#15').val(localStorage.getItem('15'));
-$('#16').val(localStorage.getItem('16'));
-$('#17').val(localStorage.getItem('17'));
-$('#18').val(localStorage.getItem('18'));
+subscribeButton.addEventListener('click', () => {
+  alert('Thank you for subscribing!');
+});
 
-//Current hour was set to 13 and equalized by the blockHour
-$('textarea').each(function(){
-let blockHour = parseInt($(this).attr('id'))
-let currentHour = 13 
-if(blockHour === currentHour){
-    $(this).addClass('present'); 
-}
+// Custom Order Form functionality
+const customOrderForm = document.getElementById('custom-order-form');
 
-else if(blockHour < currentHour){
-    $(this).addClass('past')
-}
+customOrderForm.addEventListener('submit', function (event) {
+  event.preventDefault();
+  const productName = document.getElementById('product-name').value;
+  const quantity = document.getElementById('quantity').value;
+  const customDetails = document.getElementById('custom-details').value;
 
-else if (blockHour > currentHour){
-    $(this).addClass('future')
+  if (productName && quantity && customDetails) {
+    alert(`Custom order received! \nProduct: ${productName}\nQuantity: ${quantity}\nDetails: ${customDetails}`);
+  } else {
+    alert('Please fill out all fields before submitting.');
+  }
+});
 
-}
-})
+// Contact Form functionality
+const contactForm = document.getElementById('contact-form');
 
+contactForm.addEventListener('submit', function (event) {
+  event.preventDefault();
+  const name = document.getElementById('contact-name').value;
+  const email = document.getElementById('contact-email').value;
+  const message = document.getElementById('contact-message').value;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  if (name && email && message) {
+    alert(`Thank you for reaching out, ${name}! We will respond to your inquiry shortly.`);
+  } else {
+    alert('Please fill out all fields before submitting.');
+  }
+});
